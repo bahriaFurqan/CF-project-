@@ -1,0 +1,123 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.boxmax .image-container img {
+  max-width: 100%;
+  height: 320;
+  display: block;
+  margin: 0;
+  object-fit: fill;
+}
+.banner-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5px;
+  padding: 0;
+}
+.banner-container img {
+  max-width: 100%;
+  height: 320;
+  display: block;
+  margin: 0;
+  object-fit: fill;
+}
+
+.container {
+  display: block;
+  width: 100%;
+  position: relative;
+  max-width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.left,
+.link {
+  display: inline-block;
+  vertical-align: top;
+  font-size: var(--font-body-size);
+  font-weight: var(--font-weight-normal);
+  line-height: var(--body-line-height);
+  letter-spacing: var(--body-letter-spacing);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+user agent stylesheet div {
+  display: block;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+ul {
+  list-style: none;
+}
+.footer {
+  background-color: black;
+  padding: 70px 0;
+}
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+}
+.footer-col h4 {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 300;
+  position: relative;
+}
+.footer-col h4::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #e9e9e9;
+  height: 2px;
+  width: 50px;
+  box-sizing: border-box;
+}
+.footer-col ul li a :not(:last-child) {
+  margin-bottom: 10px;
+}
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a :hover {
+  color: #ffffff;
+  padding-left: 10px;
+}
+.footer-col p {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+}

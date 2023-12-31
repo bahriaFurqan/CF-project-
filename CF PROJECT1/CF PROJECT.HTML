@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Information Form</title>
+    <link rel="stylesheet" href="CF PROJECT.CSS" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Create an account</h2>
+      <form id="userForm">
+        <label for="name">Full Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Furqan Ahmad"
+          required
+        />
+
+        <label for="address">Address:</label>
+        <input
+          type="text"
+          id="address"
+          name="address"
+          placeholder="123 Main St, City"
+          required
+        />
+
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="ahmad@example.com"
+          required
+        />
+
+        <label for="contact">Contact:</label>
+        <input
+          type="tel"
+          id="contact"
+          name="contact"
+          placeholder="+92-3214568445"
+          required
+        />
+
+        <label class="next-checkbox checked"></label>
+        <input
+          type="checkbox"
+          data-meta="Field"
+          id="enableSmsNewsletter"
+          aria-checked="true"
+          value="on"
+        />
+        <p>I'd like to receive exclusive offers and promotions via SMS</p>
+
+        <button type="button" onclick="submitAccount()">Sign up</button>
+
+        <button>
+          class="mod-button mod-button mod-third-party-login-btn
+          mod-third-party-login-fb" button id="button1" > Facebook
+        </button>
+
+        <button
+          class="mod-button mod-button mod-third-party-login-btn mod-third-party-login-google"
+          button
+          id="button2"
+        >
+          Google
+        </button>
+      </form>
+    </div>
+
+    <script src="CF PROJECT.js"></script>
+  </body>
+</html>

@@ -1,0 +1,244 @@
+.box1 {
+  border: 1px solid black;
+  background-color: black;
+  height: 30px;
+}
+#now {
+  left: 1000px;
+}
+#now2 {
+  left: 1000px;
+}
+#now3 {
+  left: 1000px;
+}
+ul {
+  float: left;
+  color: white;
+}
+ul li {
+  margin-top: -10px;
+  float: left;
+  position: relative;
+
+  width: 100px;
+  font-size: 14px;
+  font-family: barlow condensed, sans-serif;
+  list-style-type: none;
+}
+ul li a {
+  text-decoration: none;
+  color: white;
+}
+h5 {
+  margin-top: 1px;
+  color: white;
+  margin: 7px 12px;
+
+  left: -330px;
+  position: relative;
+
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.subbox {
+  border: 1px solid transparent;
+  background-color: whitesmoke;
+  height: 50px;
+}
+ol {
+  float: left;
+}
+ol li {
+  float: left;
+  width: 90px;
+  position: relative;
+  left: 25%;
+  list-style-type: none;
+  font-family: barlow condensed, sans-serif;
+}
+ol li a {
+  text-decoration: none;
+  color: black;
+}
+ol li a:hover {
+  border-bottom: 4px solid red;
+}
+
+.fa-search {
+  position: absolute;
+  left: 82%;
+  top: 9%;
+  color: black;
+}
+.fa-user {
+  position: absolute;
+  left: 85%;
+  top: 9%;
+  color: black;
+}
+
+.fa-shopping-cart {
+  position: absolute;
+  left: 88%;
+  top: 9%;
+  color: black;
+  width: 25px;
+  height: -30px;
+  border-radius: 100px;
+  background-color: navajowhite;
+  margin-left: -4px;
+  margin-top: -2px;
+}
+
+h2 {
+  position: relative;
+  left: -50%;
+  text-transform: uppercase;
+  margin-top: 4px;
+  font-weight: bold;
+  font-family: barlow condensed, sans-serif;
+}
+font {
+  color: black;
+}
+.box2 {
+  border: 1px solid wheat;
+  background-color: wheat;
+  height: 50px;
+}
+#furqan {
+  position: relative;
+  left: 340px;
+}
+.box3 {
+  border: 1px solid white;
+  background-color: white;
+  height: 50px;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  float: left;
+  margin: 20px;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.box9 {
+  border: 1px solid white;
+  background-color: white;
+  height: 1400px;
+}
+.footer {
+  background-color: black;
+  padding: 50px 0;
+}
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.footer-col {
+  width: 20%;
+  padding: 0 15px;
+  text-align: left;
+}
+
+.footer-col h4 {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 10px;
+  clear: both;
+}
+
+.footer-col ul li a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #bbbbbb;
+  transition: color 0.3s ease;
+  display: block;
+}
+
+.footer-col ul li a:hover {
+  color: #ffffff;
+  padding-left: 10px;
+}
